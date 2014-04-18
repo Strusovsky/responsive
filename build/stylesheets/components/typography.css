@@ -1,0 +1,80 @@
+/*---------------------------------------------------------------- */
+/* */
+/*  Project: ApplePie */
+/*  Version: 0.1.0 */
+/*  Last change: 24/10/2013 */
+/*  Primary use: Defining projects typo */
+/*---------------------------------------------------------------- */
+/* line 9, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+html {
+  font-size: 1em; }
+
+/* line 12, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+body {
+  font-family: Ruda, Verdana, Geneva, sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #555555; }
+
+/* line 18, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin: 0; }
+
+/* line 22, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+h1 {
+  font-size: 2.25rem; }
+
+/* line 25, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+h2 {
+  font-size: 1.875rem; }
+
+/* line 28, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+h3 {
+  font-size: 1.5rem; }
+
+/* line 31, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+h4 {
+  font-size: 1.125rem;
+  line-height: 2rem; }
+
+/* line 35, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+h5 {
+  font-size: 1rem;
+  line-height: 1rem; }
+
+/* line 39, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+h6 {
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  line-height: 1rem; }
+
+/* line 44, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+.subtitle {
+  font-size: 1.125rem;
+  line-height: 1.5rem; }
+
+/* line 48, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+p {
+  margin: 0 0 1rem 0; }
+
+/* line 51, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+strong {
+  font-weight: 700; }
+
+/* line 54, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+small {
+  font-size: 0.75rem; }
+
+/* line 57, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+a {
+  color: #3699d2;
+  text-decoration: none; }
+  /* line 60, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+  a:hover {
+    color: #226e99; }
+
+/* line 63, /Users/rave/work/responsive/responsive/source/stylesheets/components/typography.sass */
+ul, ol {
+  margin-left: 1.5rem;
+  padding-left: 0; }
