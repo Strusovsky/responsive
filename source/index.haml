@@ -16,11 +16,11 @@
   %li{:data => {menuanchor: "step-6"}}
     %a{ href: "#step-6"} Columns
 #fullpage
-  .section.section-1#top
+  .section
     %h1 Responsive
     %h4 and steps to apply it to your site
     
-  .section#about
+  .section
     .row
       .col1of2.by-right.prl
         %img{ src: "/images/responsive.jpg" }
@@ -29,12 +29,12 @@
         .subtitle
           Responsive is web-design approach that allows website looks good on any device, resolution and screen orientation.<br />In this case we say website responds to all conditions.
   
-  .section#step-1
+  .section
     %h1 Step 1
     %h3 Reset default browsers CSS by adding normalize.css to project
     .container.mtm=partial "codes/normalize"
   
-  .section#step-2
+  .section
     %h1 Step 2
     %h3 Don't forget to add viewport meta tag to head
     .container.mtm
@@ -42,12 +42,12 @@
         %code.language-markup
           &lt;meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  .section#step-3
+  .section
     %h1 Step 3
     %h3 Define horizontal screen size breakpoints. Create mixins or just take them from <a href="http://http://www.apppie.org/">ApplePie</a>
     .container.mtm=partial "codes/mixins"
   
-  .section#step-4
+  .section
     %h1 Step 4
     %h3 Use at least one container to which breakpoints will be applied.
     .container.mtm
@@ -55,13 +55,13 @@
         %code.language-markup
           &lt;div class="wrapper"> ... &lt;/div>
       
-  .section#step-5
+  .section
     %h1 Step 5
     %h3 Don't create separate CSS file with responsive styles. Use mixins right in the place where CSS-object is described.
     .container.mtm
       .container.mtm=partial "codes/mixins-usage"
   
-  .section#step-6
+  .section
     %h1 Step 6
     %h3 It's better to clear columns properties for the smallest devices and resolutions.
     .container.mtm
